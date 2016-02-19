@@ -1,32 +1,63 @@
-Freelancer Jekyll theme
-=========================
+# Jekyll Incorporated
+Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)
 
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/)
+## Installation & Usage
+    bundle install
+    jekyll serve --watch
 
-## How to use
- - Place a image in `/img/portoflio/`
- - Replace `you@email.com` in `_includes/contact_static.html` with your email address. refer to [formspree](http://formspree.io/) for more information.
- - Create posts to display your projects. Use the follow as an example:
-```txt
----
-layout: default
-modal-id: 1
-date: 2014-07-18
-img: cabin.png
-alt: image-alt
-project-date: July 2014
-client: The Client
-category: Web Development
-description: The description of the project
+_Note: Requires Ruby version 1.9.3 =>. For example use [rbenv](https://github.com/sstephenson/rbenv)_   
+    
+## Configuration
+Edit: _config.yml (general options), main.css (theme colors &amp; fonts)
 
----
+```
+jekyll-incorporated/
+├── _config.yml
+├── _assets/
+    ├── stylesheets/
+        ├── main.scss
 ```
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/freelancer-theme)
+_Note: when editing _config.yml, you need to restart jekyll to see the changes.__
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
+    
+## Publish to Github Pages
+1. Add your domain to _CNAME_
+2. Edit your repo address at _Rakefile_
+    
+Run rake task. **NOTE: It will deploy the generated site to _gh-pages_ branch overwriting it**    
+``` 
+rake site:publish
+```
 
-=========
-For more details, read the [documentation](http://jekyllrb.com/)
+## Usage examples
+
+* Adroll Engineering http://tech.adroll.com/
+* Brace.io blog http://blog.brace.io/
+* Spark.io blog http://blog.spark.io/
+* Department of Better Technology http://blog.dobt.co/
+
+## Authors
+
+Originally build for [sendtoinc.com](https://sendtoinc.com), your workspace for sharing and organizing knowledge
+
+**Karri Saarinen**
+
++ [http://twitter.com/karrisaarinen](http://twitter.com/karrisaarinen)
++ [http://github.com/ksaa](http://github.com/ksaa)
+
+**Jori Lallo**
+
++ [http://twitter.com/jorilallo](http://twitter.com/jorilallo)
++ [http://github.com/jorde](http://github.com/jorilallo)
+
+## Todo:
+
++ Documentation
++ Less config files
++ Better deploy scripts
+
+## Copyright and license
+
+Copyright 2013 Kippt Inc. under [The MIT License ](LICENSE)
+
