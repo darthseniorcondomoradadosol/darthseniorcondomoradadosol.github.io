@@ -21,6 +21,8 @@ copyright:
 
 # API settings
 google_api_key: AIzaSyDaNM-wPQ-f8bMmoqKzuvx6Sd_WhiNxX98
+youtube:
+  api_key: AIzaSyDaNM-wPQ-f8bMmoqKzuvx6Sd_WhiNxX98
 
 # Build settings
 markdown: kramdown
