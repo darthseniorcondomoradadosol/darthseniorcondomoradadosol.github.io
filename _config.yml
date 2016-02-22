@@ -1,7 +1,5 @@
-# Site settings
-title: Condomínio Morada do Sol
-email: contato@condomoradadosol.com.br
-description: > # this means to ignore newlines until "baseurl:"
+# Site set
+to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
@@ -16,13 +14,11 @@ twitter_username:
 github_username:
 address: Rua Santo Antônio 206, Nova Iguaçu
   # Feel free to add more lines here 
-telephone: 21 99664-2226‬
+telephone: (21) 99664-2226 - (21) 97048-0593
 copyright:
 
 # API settings
 google_api_key: AIzaSyDaNM-wPQ-f8bMmoqKzuvx6Sd_WhiNxX98
-youtube:
-  api_key: AIzaSyDaNM-wPQ-f8bMmoqKzuvx6Sd_WhiNxX98
 
 # Build settings
 markdown: kramdown
